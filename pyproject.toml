@@ -1,0 +1,19 @@
+[project]
+name = "10a"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ch1kChirik", email = "ma_ks6981@mail.ru" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+10a = "10a:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
